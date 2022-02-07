@@ -6,6 +6,8 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
+import androidx.recyclerview.widget.LinearLayoutManager
+import androidx.recyclerview.widget.RecyclerView
 import dagger.hilt.android.AndroidEntryPoint
 import dev.jk.zemoga.R
 import dev.jk.zemoga.databinding.FragmentDetailBinding
@@ -15,6 +17,7 @@ import dev.jk.zemoga.ui.posts.models.PostModel
 import dev.jk.zemoga.ui.postdetail.adapters.CommentsAdapter
 import dev.jk.zemoga.ui.postdetail.viewmodels.DetailedPostViewModel
 import dev.jk.zemoga.ui.postdetail.viewmodels.viewstate.DetailedPostViewState
+import dev.jk.zemoga.utils.setItemDecorator
 
 
 @AndroidEntryPoint
