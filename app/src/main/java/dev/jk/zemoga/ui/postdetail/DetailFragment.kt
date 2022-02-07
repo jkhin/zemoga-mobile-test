@@ -6,8 +6,6 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
-import androidx.recyclerview.widget.LinearLayoutManager
-import androidx.recyclerview.widget.RecyclerView
 import dagger.hilt.android.AndroidEntryPoint
 import dev.jk.zemoga.R
 import dev.jk.zemoga.databinding.FragmentDetailBinding
@@ -17,7 +15,6 @@ import dev.jk.zemoga.ui.posts.models.PostModel
 import dev.jk.zemoga.ui.postdetail.adapters.CommentsAdapter
 import dev.jk.zemoga.ui.postdetail.viewmodels.DetailedPostViewModel
 import dev.jk.zemoga.ui.postdetail.viewmodels.viewstate.DetailedPostViewState
-import dev.jk.zemoga.utils.setItemDecorator
 
 
 @AndroidEntryPoint
@@ -90,8 +87,8 @@ class DetailFragment : Fragment() {
 
     private fun updateFabIcon() {
         binding.fabSetPostAsFavorite.setImageResource(
-            if (post.isFavorite) R.drawable.ic_baseline_star_24
-            else R.drawable.ic_baseline_star_border_24
+            if (post.isFavorite) R.drawable.ic_filled_star
+            else R.drawable.ic_outlined_star
         )
     }
 

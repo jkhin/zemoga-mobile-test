@@ -64,8 +64,8 @@ class PostsAdapter(
         }
 
         private fun getDrawableIcon(isFavorite: Boolean) =
-            if (isFavorite) R.drawable.ic_baseline_star_24
-            else R.drawable.ic_baseline_star_border_24
+            if (isFavorite) R.drawable.ic_filled_star
+            else R.drawable.ic_outlined_star
 
         private fun setupHolderEvents(model: PostModel) = with(binding) {
             root.setOnClickListener {
