@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">ZemogaMobileTest</string>
+
+    <string name="detail_post_comment_by_name"><strong>Posted by:</strong> %s</string>
+    <string name="detail_post_comment_by_email"><b>Email:</b> %s</string>
+    <string name="detail_post_author">About the author</string>
+    <string name="detail_post_comments">Comments:</string>
+    <string name="detail_post_author_name">Name:</string>
+    <string name="detail_post_author_email">Email:</string>
+    <string name="detail_post_author_phone">Phone:</string>
+    <string name="detail_post_author_website">Website:</string>
+    <string name="posts_btn_all">ALL</string>
+    <string name="posts_btn_favorites">FAVORITES</string>
+    <string name="posts_non_posts_available">Unfortunately we\'re empty of posts. Drag and or pull down on the screen to get posts!</string>
+    <string name="posts_non_favorite_posts_available">You have not selected any post as favorite!</string>
+</resources>
