@@ -39,6 +39,9 @@ Clean Architecture is the architecture that has being implemented in order to ex
 ../di                   // The Dependency Injection Module is defined here
 ```
 
+About the author:
+- *name*: Joel Colmenares
+- *email*: jkhin.cb@gmail.com
 
 
 
