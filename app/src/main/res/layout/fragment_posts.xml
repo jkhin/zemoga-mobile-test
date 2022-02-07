@@ -19,7 +19,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:visibility="gone"
-        android:padding="64dp"
+        android:padding="@dimen/dp_64"
         android:textAlignment="center"
         android:text="@string/posts_non_posts_available"
         app:layout_constraintTop_toTopOf="parent"
@@ -43,7 +43,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:clipToPadding="false"
-            android:paddingBottom="72dp"/>
+            android:paddingBottom="@dimen/dp_72"/>
     </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
@@ -51,7 +51,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="end|bottom"
-        android:layout_margin="16dp"
+        android:layout_margin="@dimen/dp_16"
         android:src="@drawable/ic_trash"
         app:backgroundTint="@color/red"
         app:layout_constraintBottom_toBottomOf="parent"
